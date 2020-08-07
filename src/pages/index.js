@@ -99,14 +99,14 @@ const IndexPage = ({ data }) => {
                     <div className="f-col-bp1-4 f-col-bp1-shift-0 f-col-bp2-10 f-col-bp2-shift-1 f-col-bp3-10 f-col-bp3-shift-1 u-ver-center u-hor-center">
                         <div className="c-intro">
                             <h1 className="c-intro__title">
-                                <span data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="800" data-aos-anchor="hero">I design user interfaces</span><br />
-                                <span data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="1200" data-aos-anchor="hero">and digital identities.</span>
+                                <span data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400" data-aos-delay="500" data-aos-anchor="hero">I design user interfaces</span><br />
+                                <span data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400" data-aos-delay="800" data-aos-anchor="hero">and digital identities.</span>
                             </h1>
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="c-row c-gallery u-mb-gamma" id="work" data-aos="fade-up" data-aos-anchor="hero" data-aos-delay="1800">
+            <section className="c-row c-gallery u-mb-gamma" id="work" data-aos="fade-up" data-aos-anchor="hero" data-aos-delay="1000">
                 <Link to="/ferret/" className="c-gallery__item c-gallery__item--1 u-bgcolor-ferret-light js-toolbox">
                     <Img fluid={data.img_ferret_teaser.childImageSharp.fluid} alt="Ferret.ai teaser" className="c-gallery__img" />
                     <h2 className="c-gallery__caption js-tooltip">Ferret.ai</h2>

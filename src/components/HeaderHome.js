@@ -72,7 +72,7 @@ class HeaderHome extends React.Component {
                             <track src={captions_sound_dries} kind="captions" srcLang="en" label="english_captions"></track>
                         </audio>    
                     </p>
-                    <div className="c-nav" data-aos="fade-zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="2000">
+                    <div className="c-nav" data-aos="fade-zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="300" data-aos-delay="1000">
                         <nav className="c-nav-main js-nav">
                             <div className="c-nav-main__inner">
                                 <ul className="o-list c-nav-main__list">
