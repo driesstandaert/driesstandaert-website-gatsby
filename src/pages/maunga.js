@@ -35,7 +35,10 @@ const MaungaPage = ({ data }) => {
                     <div className="f-grid">
                         <div className="f-col-bp1-4 f-col-bp2-10 f-col-bp3-8 c-hero" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-anchor="hero">
                             <h1>Maunga will enable you to plan a hike beforehand, track it during and share it afterwards.</h1>
-                            <span className="c-hero__tags">Identity design, UI design</span>
+                            <ul className="o-list o-list--horizontal c-tags--hero">
+                                <li className="o-list__item c-tag">Identity design</li>
+                                <li className="o-list__item c-tag">UI design</li>
+                            </ul>
                         </div>
                     </div>
                 </section>

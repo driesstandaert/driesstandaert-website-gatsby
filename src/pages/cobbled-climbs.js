@@ -41,8 +41,12 @@ const CobbledClimbsPage = ({ data }) => {
                 <section className="c-row c-row--alpha c-row-hero">
                     <div className="f-grid">
                         <div className="f-col-bp1-4 f-col-bp2-10 f-col-bp3-8 c-hero" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-anchor="hero">
-                            <h1>Cobbled Climbs is a personal project to explore React/Redux, SVG graphs and theming. </h1>
-                            <span className="c-hero__tags">UI design, HTML/CSS/JS, React</span>
+                            <h1>Cobbled Climbs is a personal project to explore React/Redux, SVG graphs and theming.</h1>
+                            <ul className="o-list o-list--horizontal c-tags--hero">
+                                <li className="o-list__item c-tag">UI design</li>
+                                <li className="o-list__item c-tag">HTML/CSS/JS</li>
+                                <li className="o-list__item c-tag">React</li>
+                            </ul>
                         </div>
                     </div>
                 </section>

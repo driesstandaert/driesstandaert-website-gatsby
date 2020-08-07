@@ -66,7 +66,10 @@ const WerchterPage = ({ data }) => {
                         <div className="f-grid">
                             <div className="f-col-bp1-4 f-col-bp2-10 f-col-bp3-8 c-hero" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-anchor="hero">
                                 <h1>Rock Werchter is an internationally acclaimed music festival. </h1>
-                                <span className="c-hero__tags">UI design, HTML/CSS/JS</span>
+                                <ul className="o-list o-list--horizontal c-tags--hero">
+                                    <li className="o-list__item c-tag">UI design</li>
+                                    <li className="o-list__item c-tag">HTML/CSS/JS</li>
+                                </ul>
                             </div>
                         </div>
                     </section>

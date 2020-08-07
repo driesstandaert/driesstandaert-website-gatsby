@@ -110,34 +110,66 @@ const IndexPage = ({ data }) => {
                 <Link to="/ferret/" className="c-gallery__item c-gallery__item--1 u-bgcolor-ferret-light js-toolbox">
                     <Img fluid={data.img_ferret_teaser.childImageSharp.fluid} alt="Ferret.ai teaser" className="c-gallery__img" />
                     <h2 className="c-gallery__caption js-tooltip">Ferret.ai</h2>
+                    <ul className="o-list o-list--horizontal c-tags">
+                        <li className="o-list__item c-tag">Identity design</li>
+                        <li className="o-list__item c-tag">HTML/CSS/JS</li>
+                    </ul>
                 </Link>
                 <Link to="/cobbled-climbs/" className="c-gallery__item c-gallery__item--2 u-bgcolor-cc-base js-toolbox">
                     <Img fluid={data.img_cc_teaser.childImageSharp.fluid} alt="Cobbled climbs teaser" className="c-gallery__img" />
                     <h2 className="c-gallery__caption js-tooltip">Cobbled Climbs</h2>
+                    <ul className="o-list o-list--horizontal c-tags">
+                        <li className="o-list__item c-tag">HTML/CSS/JS</li>
+                        <li className="o-list__item c-tag">React</li>
+                    </ul>
                 </Link>
                 <Link to="/sp/" className="c-gallery__item c-gallery__item--3 u-bgcolor-sp-dark js-toolbox">
                     <Img fluid={data.img_sp_teaser.childImageSharp.fluid} alt="S&P Global teaser" className="c-gallery__img" />
                     <h2 className="c-gallery__caption js-tooltip">S&P Global</h2>
+                    <ul className="o-list o-list--horizontal c-tags">
+                        <li className="o-list__item c-tag">UI/UX design</li>
+                        <li className="o-list__item c-tag">Figma</li>
+                        <li className="o-list__item c-tag">React</li>
+                    </ul>
                 </Link>
                 <Link to="/atlascopco/" className="c-gallery__item c-gallery__item--4 u-bgcolor-ac-base js-toolbox">
                     <Img fluid={data.img_ac_teaser.childImageSharp.fluid} alt="Atlas Copco teaser" className="c-gallery__img" />
                     <h2 className="c-gallery__caption js-tooltip">Atlas Copco</h2>
+                    <ul className="o-list o-list--horizontal c-tags">
+                        <li className="o-list__item c-tag">UI design</li>
+                        <li className="o-list__item c-tag">HTML/CSS/JS</li>
+                    </ul>
                 </Link>
                 <Link to="/bene/" className="c-gallery__item c-gallery__item--5 u-bgcolor-bene-base js-toolbox">
                     <Img fluid={data.img_bene_teaser.childImageSharp.fluid} alt="Benevolent.ai teaser" className="c-gallery__img" />
                     <h2 className="c-gallery__caption js-tooltip">Benevolent.ai</h2>
+                    <ul className="o-list o-list--horizontal c-tags">
+                        <li className="o-list__item c-tag">Identity design</li>
+                    </ul>
                 </Link>
                 <Link to="/werchter/" className="c-gallery__item c-gallery__item--6 u-bgcolor-werchter-base js-toolbox">
                     <Img fluid={data.img_werchter_teaser.childImageSharp.fluid} alt="Rock werchter teaser" className="c-gallery__img" />
                     <h2 className="c-gallery__caption js-tooltip">Rock Werchter</h2>
+                    <ul className="o-list o-list--horizontal c-tags">
+                        <li className="o-list__item c-tag">UI design</li>
+                        <li className="o-list__item c-tag">HTML/CSS/JS</li>
+                    </ul>
                 </Link>
                 <Link to="/matexi/" className="c-gallery__item c-gallery__item--7 u-bgcolor-matexi-base js-toolbox">
                     <Img fluid={data.img_matexi_teaser.childImageSharp.fluid} alt="Matexi teaser" className="c-gallery__img" />
                     <h2 className="c-gallery__caption js-tooltip">Matexi</h2>
+                    <ul className="o-list o-list--horizontal c-tags">
+                        <li className="o-list__item c-tag">UI design</li>
+                        <li className="o-list__item c-tag">HTML/CSS/JS</li>
+                    </ul>
                 </Link>
                 <Link to="/maunga/" className="c-gallery__item c-gallery__item--8 u-bgcolor-maunga-light js-toolbox">
                     <Img fluid={data.img_maunga_teaser.childImageSharp.fluid} alt="Maunga teaser" className="c-gallery__img" />
                     <h2 className="c-gallery__caption js-tooltip">Maunga</h2>
+                    <ul className="o-list o-list--horizontal c-tags">
+                        <li className="o-list__item c-tag">Identity design</li>
+                        <li className="o-list__item c-tag">UI design</li>
+                    </ul>
                 </Link>
             </section>
             <section className="c-row c-row--alpha" id="about">

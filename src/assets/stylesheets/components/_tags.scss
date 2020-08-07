@@ -1,0 +1,43 @@
+/*
+    Components: Tags
+    ---
+*/
+
+.c-tags {
+  width: 100%;
+  background-color: palette(color-neutral, x-light);
+  padding: 0 0 1rem 1rem;
+  margin: 0;
+
+  @include mq(bp3) {
+    background-color: transparent;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+  }
+
+  :hover > & {
+    opacity: 1;
+  }
+}
+
+.c-tag {
+  background: #efefef;
+  font-size: .7rem;
+  padding: 2px 15px;
+  border-radius: 20px;
+  margin: 0 .5rem .5rem 0; 
+  color: #888;
+
+  @include mq(bp3) {
+    background: #fff;
+
+    .c-tags--hero & {
+      background: #efefef;
+    }
+  }
+}
+
+.c-tag:last-child {
+  margin-right: 0; 
+}

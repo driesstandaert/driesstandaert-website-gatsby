@@ -14,7 +14,7 @@
       display: grid;
       grid-template-columns: repeat(12, 1fr);
       grid-template-rows: repeat(12, 8vw);
-      grid-gap: 16px;
+      grid-gap: 20px;
       
       // IE css grid fixes
       max-width: none;
@@ -28,13 +28,15 @@
 
     .c-gallery__item {
       display: flex;
-      align-items: center;
+      flex-direction: column;
       position: relative;
-      margin-bottom: 4em;
+      margin-bottom: .5rem;
+      border-bottom: 1px solid #efefef;
 
       @include mq(bp3) {
         overflow: hidden;
         margin-bottom: 0;
+        display: block;
 
         &:hover {
           > .c-gallery__img {
@@ -140,18 +142,17 @@
 
     .c-gallery__caption {
       color: palette(color-neutral, dark);
-      text-align: center;
-      @include text-dimensions($h5-font-size,$h5-line-height);
+      font-size: 1rem;
+      line-height: 1.5rem;
       font-weight: $alpha-font-weight;
-      position: absolute;
       opacity: 1;
       background-color: palette(color-neutral, x-light);
-      bottom: -35px;
-      left: 16px;
       margin: 0;
+      padding: 1rem 1rem .5rem;
       width: auto;
 
       @include mq(bp3) {
+        position: absolute;
         background: none;
         bottom: auto;
         opacity: 0;
