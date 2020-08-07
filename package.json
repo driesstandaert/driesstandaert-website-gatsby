@@ -1,19 +1,29 @@
 {
-  "name": "gatsby-starter-sass",
-  "description": "A Gatsby starter with Sass and no assumptions",
-  "version": "0.1.2",
-  "author": "Colby Fayock <hello@colbyfayock.com>",
+  "name": "driesstandaert-website-gatsby",
+  "description": "Personal website of Dries Standaert - Gatsby / SCSS",
+  "version": "0.0.1",
+  "author": "Dries Standaert <dries.standaert@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.23.1",
+    "@mdx-js/react": "^1.6.16",
+    "acorn": "^6.4.1",
+    "aos": "^2.3.4",
+    "gatsby": "^2.24.31",
+    "gatsby-image": "^2.4.14",
+    "gatsby-plugin-html-attributes": "^1.0.5",
+    "gatsby-plugin-manifest": "^2.4.22",
     "gatsby-plugin-react-helmet": "^3.3.3",
     "gatsby-plugin-resolve-src": "^2.1.0",
     "gatsby-plugin-sass": "^2.3.3",
+    "gatsby-plugin-sharp": "^2.6.25",
     "gatsby-source-filesystem": "^2.3.10",
+    "gatsby-transformer-sharp": "^2.5.12",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-helmet": "^6.0.0"
+    "react-dom": "^16.8.1",
+    "react-helmet": "^6.0.0",
+    "react-refresh": "^0.8.3",
+    "typescript": "^3.9.7"
   },
   "devDependencies": {},
   "keywords": [
@@ -33,9 +43,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/colbyfayock/gatsby-starter-sass"
-  },
-  "bugs": {
-    "url": "https://github.com/colbyfayock/gatsby-starter-sass/issues"
+    "url": "https://github.com/driesstandaert/driesstandaert-website-gatsby"
   }
 }

@@ -1,0 +1,67 @@
+// settings
+@import 'settings';;
+
+// Generic
+@import 'generic/box-sizing';
+@import 'generic/normalize';
+@import 'generic/reset';
+
+// Local mixins
+@import 'mixins/spacing';
+@import 'mixins/mediaquery';
+@import 'mixins/clearfix';
+@import 'mixins/typography';
+
+// Local dependencies
+@import 'typography';
+
+/**
+ * GLOBAL STYLES
+ */
+
+body {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+}
+
+/**
+ * PROJECT IMPORTS
+ */
+
+// Objects
+@import 'objects/list';
+@import 'objects/flexbox';
+
+// Components
+@import 'components/intro';
+@import 'components/main';
+@import 'components/browser';
+@import 'components/link';
+@import 'components/row';
+@import 'components/tile';
+@import 'components/navigation';
+@import 'components/logo';
+@import 'components/social';
+@import 'components/sound';
+@import 'components/hero';
+@import 'components/cards';
+@import 'components/gallery';
+@import 'components/mockup';
+@import 'components/tilt';
+@import 'components/animation';
+
+// Utilities
+
+@import 'utilities/extras';
+@import 'utilities/spacing';
+@import 'utilities/colors';
+@import 'utilities/align';
+@import 'utilities/states';
+
+// plugins
+@import 'plugins/aos';
+@import 'plugins/nanobar';
+@import 'plugins/vanilla-tilt';
