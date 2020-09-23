@@ -36,23 +36,24 @@ img {
 @import 'objects/flexbox';
 
 // Components
-@import 'components/intro';
-@import 'components/main';
+@import 'components/animation';
 @import 'components/browser';
-@import 'components/link';
-@import 'components/row';
-@import 'components/tile';
-@import 'components/navigation';
-@import 'components/logo';
-@import 'components/social';
-@import 'components/sound';
-@import 'components/hero';
 @import 'components/cards';
 @import 'components/gallery';
+@import 'components/hero';
+@import 'components/iframe';
+@import 'components/intro';
+@import 'components/link';
+@import 'components/logo';
+@import 'components/main';
 @import 'components/mockup';
-@import 'components/tilt';
-@import 'components/animation';
+@import 'components/navigation';
+@import 'components/row';
+@import 'components/social';
+@import 'components/sound';
 @import 'components/tags';
+@import 'components/tile';
+@import 'components/tilt';
 
 // Utilities
 

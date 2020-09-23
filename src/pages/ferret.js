@@ -159,9 +159,9 @@ const FerretPage = ({ data }) => {
                 </section>
                 <section className="c-row u-nomargin u-bgcolor-neutral-x-light">
                     <div className="f-grid u-no-max-width">
-                        <Link to="/cobbled-climbs/" className="f-col-bp1-4 f-col-bp1-shift-0 f-col-bp3-6 f-col-bp3-shift-6 c-tile c-tile--link">
+                        <Link to="/matexi/" className="f-col-bp1-4 f-col-bp1-shift-0 f-col-bp3-6 f-col-bp3-shift-6 c-tile c-tile--link">
                             <div className="c-tile__content c-tile__content--link">
-                                <p className="c-tile__link-text c-tile__link-text--next"><span>Cobbled Climbs</span></p>
+                                <p className="c-tile__link-text c-tile__link-text--next"><span>Matexi</span></p>
                             </div>
                         </Link>
                     </div>

@@ -1,0 +1,13 @@
+/*
+    Components: iframe
+    ---
+*/
+
+.c-iframe {
+    border: none;
+    min-height: 300px;
+
+    @include mq(bp3) {
+        min-height: 1000px;
+    }
+}

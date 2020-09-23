@@ -57,6 +57,7 @@ $color-maunga                       : #9763c8 !default;
 $color-werchter                     : #00ceb2 !default;
 $color-sp                           : #EAEAEA !default;
 $color-cc                           : #005387 !default;
+$color-echelon                      : #396AFF !default;
 
 
 $color-error                        : #FF4136 !default;
@@ -143,8 +144,14 @@ $palettes: (
     color-cc: (
         light                       : hsl(hue($color-cc),70,60),
         base                        : $color-cc,
-        dark                        : #1A1A1A,
+        dark                        : hsl(hue($color-cc),80,15),
         x-dark                      : hsl(hue($color-cc),100,15)
+    ),
+    color-echelon: (
+        light                       : hsl(hue($color-echelon),70,60),
+        base                        : $color-echelon,
+        dark                        : hsl(hue($color-echelon),80,60),
+        x-dark                      : hsl(hue($color-echelon),100,15)
     ),
     color-error: (
         light                       : hsl(hue($color-error),70,60),

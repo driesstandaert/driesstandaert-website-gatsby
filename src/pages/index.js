@@ -63,6 +63,13 @@ query {
           }
         }
       }
+      img_echelon_teaser: file(relativePath: {eq: "jpg/echelon-teaser.jpg"}) {
+        childImageSharp {
+          fluid {
+              ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       img_about: file(relativePath: {eq: "jpg/about.jpg"}) {
         childImageSharp {
           fluid {
@@ -107,12 +114,12 @@ const IndexPage = ({ data }) => {
                 </div>
             </section>
             <section className="c-row c-gallery u-mb-gamma" id="work" data-aos="fade-up" data-aos-anchor="hero" data-aos-delay="1000">
-                <Link to="/ferret/" className="c-gallery__item c-gallery__item--1 u-bgcolor-ferret-light js-toolbox">
-                    <Img fluid={data.img_ferret_teaser.childImageSharp.fluid} alt="Ferret.ai teaser" className="c-gallery__img" />
-                    <h2 className="c-gallery__caption js-tooltip">Ferret.ai</h2>
+                <Link to="/echelon/" className="c-gallery__item c-gallery__item--1 u-bgcolor-echelon-base js-toolbox">   
+                    <Img fluid={data.img_echelon_teaser.childImageSharp.fluid} alt="Echelon UI kit" className="c-gallery__img" />
+                    <h2 className="c-gallery__caption js-tooltip">Echelon</h2>
                     <ul className="o-list o-list--horizontal c-tags">
-                        <li className="o-list__item c-tag">Identity design</li>
-                        <li className="o-list__item c-tag">HTML/CSS/JS</li>
+                        <li className="o-list__item c-tag">UI design</li>
+                        <li className="o-list__item c-tag">Figma</li>
                     </ul>
                 </Link>
                 <Link to="/cobbled-climbs/" className="c-gallery__item c-gallery__item--2 u-bgcolor-cc-base js-toolbox">
@@ -147,11 +154,11 @@ const IndexPage = ({ data }) => {
                         <li className="o-list__item c-tag">Identity design</li>
                     </ul>
                 </Link>
-                <Link to="/werchter/" className="c-gallery__item c-gallery__item--6 u-bgcolor-werchter-base js-toolbox">
-                    <Img fluid={data.img_werchter_teaser.childImageSharp.fluid} alt="Rock werchter teaser" className="c-gallery__img" />
-                    <h2 className="c-gallery__caption js-tooltip">Rock Werchter</h2>
+                <Link to="/ferret/" className="c-gallery__item c-gallery__item--6 u-bgcolor-ferret-light js-toolbox">
+                    <Img fluid={data.img_ferret_teaser.childImageSharp.fluid} alt="Ferret.ai teaser" className="c-gallery__img" />
+                    <h2 className="c-gallery__caption js-tooltip">Ferret.ai</h2>
                     <ul className="o-list o-list--horizontal c-tags">
-                        <li className="o-list__item c-tag">UI design</li>
+                        <li className="o-list__item c-tag">Identity design</li>
                         <li className="o-list__item c-tag">HTML/CSS/JS</li>
                     </ul>
                 </Link>
@@ -163,12 +170,20 @@ const IndexPage = ({ data }) => {
                         <li className="o-list__item c-tag">HTML/CSS/JS</li>
                     </ul>
                 </Link>
-                <Link to="/maunga/" className="c-gallery__item c-gallery__item--8 u-bgcolor-maunga-light js-toolbox">
+                {/*<Link to="/maunga/" className="c-gallery__item c-gallery__item--8 u-bgcolor-maunga-light js-toolbox">
                     <Img fluid={data.img_maunga_teaser.childImageSharp.fluid} alt="Maunga teaser" className="c-gallery__img" />
                     <h2 className="c-gallery__caption js-tooltip">Maunga</h2>
                     <ul className="o-list o-list--horizontal c-tags">
                         <li className="o-list__item c-tag">Identity design</li>
                         <li className="o-list__item c-tag">UI design</li>
+                    </ul>
+                </Link>*/}
+                <Link to="/werchter/" className="c-gallery__item c-gallery__item--8 u-bgcolor-werchter-base js-toolbox">
+                    <Img fluid={data.img_werchter_teaser.childImageSharp.fluid} alt="Rock werchter teaser" className="c-gallery__img" />
+                    <h2 className="c-gallery__caption js-tooltip">Rock Werchter</h2>
+                    <ul className="o-list o-list--horizontal c-tags">
+                        <li className="o-list__item c-tag">UI design</li>
+                        <li className="o-list__item c-tag">HTML/CSS/JS</li>
                     </ul>
                 </Link>
             </section>
