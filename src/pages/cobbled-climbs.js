@@ -70,7 +70,7 @@ const CobbledClimbsPage = ({ data }) => {
                                 <h2 className="u-mb-gamma">Lifecycling with React</h2>
                                 <p>As a fan of <a href="https://www.youtube.com/watch?v=PUenwjIYy4s" target="_blank" rel="noreferrer" className="c-link">Cobbled Classic</a> races I have created a side project to learn and explore React-related challenges.
                         I've set up a React environment with Redux to pass states along components and route urls via a select dropdown.</p>
-                                <p>Visit <a href="https://cobbled-climbs.herokuapp.com/" target="_blank" rel="noreferrer" className="c-link">cobbled-climbs.herokuapp.com</a><br /> or <a href="https://github.com/driesstandaert/cobbled-climbs" target="_blank" rel="noreferrer" className="c-link">View on Github</a></p>
+                                <p>Visit <a href="https://cobbled-climbs.netlify.app/" target="_blank" rel="noreferrer" className="c-link">cobbled-climbs.netlify.app</a><br /> or <a href="https://github.com/driesstandaert/cobbled-climbs" target="_blank" rel="noreferrer" className="c-link">View on Github</a></p>
                             </div>
                         </div>
                     </div>
