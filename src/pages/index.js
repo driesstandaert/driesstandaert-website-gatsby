@@ -191,7 +191,7 @@ const IndexPage = ({ data }) => {
                     <div className="f-col-bp1-4 f-col-bp2-10 f-col-bp3-6 u-ver-center">
                         <div className="c-tile__content">
                             <h2>Combining design and code to build products in an effective way.</h2>
-                            <p>I have been a digital designer at <a href="https://www.askattest.com/" class="c-link">Attest</a> and agencies like Wijs (now <a href="https://www.dukeandgrace.com/" class="c-link">Springbok</a>) and <a href="http://www.hugoandcat.com/" class="c-link">Hugo &amp; Cat</a>. I care about working efficiently with motivated people building effective products and exciting digital identities.</p>
+                            <p>I have been a digital designer at <a href="https://www.askattest.com/" class="c-link">Attest</a>, <a href="http://www.hugoandcat.com/" class="c-link">Hugo &amp; Cat</a> and Wijs (now <a href="https://www.dukeandgrace.com/" class="c-link">Springbok</a>). I care about working efficiently with great people building effective products and exciting digital identities.</p>
                             <p id="contact">I'm currently based in <strong>London</strong>. Feel free to get in touch.</p>
                             <p className="u-mt-epsilon u-mb-beta">
                                 <a href="mailto:dries.standaert@gmail.com" className="c-link">dries.standaert@gmail.com</a>
