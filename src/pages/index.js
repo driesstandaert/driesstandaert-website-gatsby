@@ -126,7 +126,7 @@ const IndexPage = ({ data }) => {
                     <Img fluid={data.img_cc_teaser.childImageSharp.fluid} alt="Cobbled climbs teaser" className="c-gallery__img" />
                     <h2 className="c-gallery__caption js-tooltip">Cobbled Climbs</h2>
                     <ul className="o-list o-list--horizontal c-tags">
-                        <li className="o-list__item c-tag">HTML/CSS/JS</li>
+                        <li className="o-list__item c-tag">HTML / CSS / JS</li>
                         <li className="o-list__item c-tag">React</li>
                     </ul>
                 </Link>
@@ -134,9 +134,8 @@ const IndexPage = ({ data }) => {
                     <Img fluid={data.img_sp_teaser.childImageSharp.fluid} alt="S&P Global teaser" className="c-gallery__img" />
                     <h2 className="c-gallery__caption js-tooltip">S&P Global</h2>
                     <ul className="o-list o-list--horizontal c-tags">
-                        <li className="o-list__item c-tag">UI/UX design</li>
+                        <li className="o-list__item c-tag">UI / UX design</li>
                         <li className="o-list__item c-tag">Figma</li>
-                        <li className="o-list__item c-tag">React</li>
                     </ul>
                 </Link>
                 <Link to="/atlascopco/" className="c-gallery__item c-gallery__item--4 u-bgcolor-ac-base js-toolbox">
@@ -144,7 +143,7 @@ const IndexPage = ({ data }) => {
                     <h2 className="c-gallery__caption js-tooltip">Atlas Copco</h2>
                     <ul className="o-list o-list--horizontal c-tags">
                         <li className="o-list__item c-tag">UI design</li>
-                        <li className="o-list__item c-tag">HTML/CSS/JS</li>
+                        <li className="o-list__item c-tag">HTML / CSS / JS</li>
                     </ul>
                 </Link>
                 <Link to="/bene/" className="c-gallery__item c-gallery__item--5 u-bgcolor-bene-base js-toolbox">
@@ -191,9 +190,9 @@ const IndexPage = ({ data }) => {
                 <div className="f-grid u-grid-full">
                     <div className="f-col-bp1-4 f-col-bp2-10 f-col-bp3-6 u-ver-center">
                         <div className="c-tile__content">
-                            <h2>Combining design and front-end development I handle projects in a mature way and enable design teams to achieve effective results.</h2>
-                            <p>As a senior front-end designer I have worked at <a href="https://www.dukeandgrace.com/" className="c-link">Duke & Grace</a> (Wijs) and <a href="http://www.hugoandcat.com/" className="c-link">Hugo & Cat</a> working with motivated people in an open, innovative environment designing effective online platforms and digital identities.</p>
-                            <p id="contact">I'm currently living <strong>London</strong>. Feel free to get in touch.</p>
+                            <h2>Combining design and code to build products in an effective way.</h2>
+                            <p>I have been a digital designer at <a href="https://www.askattest.com/" class="c-link">Attest</a> and agencies like Wijs (now <a href="https://www.dukeandgrace.com/" class="c-link">Springbok</a>) and <a href="http://www.hugoandcat.com/" class="c-link">Hugo &amp; Cat</a>. I care about working efficiently with motivated people building effective products and exciting digital identities.</p>
+                            <p id="contact">I'm currently based in <strong>London</strong>. Feel free to get in touch.</p>
                             <p className="u-mt-epsilon u-mb-beta">
                                 <a href="mailto:dries.standaert@gmail.com" className="c-link">dries.standaert@gmail.com</a>
                             </p>
@@ -201,21 +200,21 @@ const IndexPage = ({ data }) => {
                                 <a href="tel:+44 7399 610062" className="c-link">+44 7399 610062</a>
                             </p>
                             <ul className="o-list c-social__list">
-                                <li className="o-list__item c-social__list-item">
+                                {/*<li className="o-list__item c-social__list-item">
                                     <a href="http://twitter.com/driesstandaert" target="_blank" rel="noreferrer" className="c-social__link c-social__link--twitter">Twitter</a>
-                                </li>
+                                </li>*/}
                                 <li className="o-list__item c-social__list-item">
                                     <a href="https://www.linkedin.com/in/dries-standaert-67635383/" target="_blank" rel="noreferrer" className="c-social__link c-social__link--linkedin">LinkedIn</a>
                                 </li>
-                                <li className="o-list__item c-social__list-item">
+                                {/*<li className="o-list__item c-social__list-item">
                                     <a href="https://dribbble.com/driesstandaert" target="_blank" rel="noreferrer" className="c-social__link c-social__link--dribbble">dribbble</a>
-                                </li>
+                                </li>*/}
                                 <li className="o-list__item c-social__list-item">
                                     <a href="http://codepen.io/driesstandaert/" target="_blank" rel="noreferrer" className="c-social__link c-social__link--codepen">Codepen</a>
                                 </li>
-                                <li className="o-list__item c-social__list-item">
+                                {/*<li className="o-list__item c-social__list-item">
                                     <a href="https://github.com/driesstandaert" target="_blank" rel="noreferrer" className="c-social__link c-social__link--github">Github</a>
-                                </li>
+                                </li>*/}
                             </ul>
                         </div>
                     </div>

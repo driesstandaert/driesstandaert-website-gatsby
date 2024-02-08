@@ -1,21 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Link, graphql } from 'gatsby';
+import { Link } from 'gatsby';
 import Layout from 'components/Layout';
 
-export const query = graphql`
-query {
-    img_echelon_cover: file(relativePath: {eq: "jpg/echelon-cover.jpg"}) {
-      childImageSharp {
-        fluid {
-            ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-  }
-`
-
-const SPPage = ({ data }) => {
+const EchelonPage = ({ data }) => {
     return (
         <Layout pageName="sp">
             <Helmet>
@@ -68,5 +56,5 @@ const SPPage = ({ data }) => {
     )
 };
 
-export default SPPage;
+export default EchelonPage;
 
