@@ -22,7 +22,9 @@
       padding: 0;
 
       @include mq(bp3) {
-        grid-gap: 16px; 
+        grid-gap: 16px;
+        max-width: 1920px;
+        margin: 0 auto;
       }
     }
 
